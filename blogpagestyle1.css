@@ -2,3 +2,10 @@
 
 @import "headsection.css";
 @import "authorinfo.css";
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+q {
+    font-style: italic;
+}
