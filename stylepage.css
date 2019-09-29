@@ -1,6 +1,7 @@
 /*Main styles*/
 
 @import "iconsstyle.css";
+@import "headsection.css";
 :root {
     --primary: #eaeaea;
     --light: #fff;
@@ -13,34 +14,6 @@ body {
     color: var(--light);
     font-size: 1rem;
     text-align: center;
-}
-
-.headsection {
-    background-color: #7992c7;
-    text-transform: uppercase;
-    border-bottom: 2px solid #333;
-    padding: 1rem 0;
-    padding-left: 5%;
-    display: flex;
-    flex-direction: column;
-}
-
-.headsection ul {
-    padding: 1rem 1rem 1rem 1rem;
-    list-style: none;
-}
-
-.headsection ul li {
-    display: inline;
-    color: var(--light);
-}
-
-.headsection a {
-    text-decoration: var(--light);
-}
-
-.headsection a:hover {
-    color: #eaeaea;
 }
 
 img {
