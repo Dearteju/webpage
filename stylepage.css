@@ -1,12 +1,12 @@
 /*Main styles*/
 
+@import "iconsstyle.css";
 :root {
     --primary: #eaeaea;
     --light: #fff;
     --dark: #333;
 }
 
-@import url('iconsstyle.css');
 body {
     font-family: Arial, Helvetica, sans-serif;
     background: var(--dark);
