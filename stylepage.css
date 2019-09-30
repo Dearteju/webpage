@@ -2,6 +2,7 @@
 
 @import "iconsstyle.css";
 @import "headsection.css";
+@import "cards.css";
 :root {
     --primary: #eaeaea;
     --light: #fff;
@@ -53,18 +54,6 @@ img {
     padding: 1rem 0rem 1rem;
 }
 
-.blogsection ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-.blogsection li {
-    margin-bottom: 1rem;
-    background: var(--light);
-    color: var(--dark);
-}
-
 .blog-title {
     padding: 1.5rem;
 }
@@ -92,7 +81,7 @@ img {
     background: var(--dark);
 }
 
-@media(min-width:600px) {
+@media(min-width:200px) {
     .subhome {
         display: flex;
         flex-direction: row;
@@ -103,20 +92,7 @@ img {
         margin-right: auto;
         width: 50%;
     }
-    .blog {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 1rem;
-        border-radius: 50%
-    }
     img {
-        width: 700px;
-        height: 500px;
-        border-radius: 50%;
-    }
-    .blogsection {
-        display: grid;
-        grid-template-rows: 1fr;
-        grid-template-areas: inherit;
+        border: 2px solid black;
     }
 }

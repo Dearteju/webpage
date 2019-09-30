@@ -1,0 +1,9 @@
+.totalblog {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    border: 2px solid black;
+    background: whitesmoke;
+    color: black;
+    padding: 1rem 1rem 1rem;
+}
