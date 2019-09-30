@@ -69,6 +69,10 @@ img {
     padding: 1rem 1rem 1rem;
 }
 
+q {
+    font-style: italic;
+}
+
 #ft-section {
     background: var(--dark);
 }
